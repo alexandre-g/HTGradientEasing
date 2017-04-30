@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name         = "HTGradientEasing"
-  s.version      = "0.0.4"
+  s.name         = "HTGradientEasing-Fixed"
+  s.version      = "0.0.6"
   s.platform     = :ios
-  s.summary      = "Apply a variety of easing functions from the AHEasing project to CAGradientLayers. "
-  s.homepage     = "https://github.com/hoteltonight/HTGradientEasing"
+  s.summary      = "Fixed improper import for use as dependency"
+  s.homepage     = "https://github.com/alexandre-g/HTGradientEasing"
   s.license      = 'MIT'
-  s.author       = { "Jacob Jennings" => "jacob.r.jennings@gmail.com" }
-  s.source       = { :git => "https://github.com/hoteltonight/HTGradientEasing.git", :tag => "0.0.4" }
+  s.author       = { "Alex" => "alexandre@goloskok.com" }
+  s.source       = { :git => "https://github.com/hoteltonight/HTGradientEasing.git", :tag => "0.0.6" }
   s.ios.deployment_target = '4.3'
   s.source_files = '*.{h,m}'
   s.frameworks   = 'QuartzCore', 'CoreGraphics'
