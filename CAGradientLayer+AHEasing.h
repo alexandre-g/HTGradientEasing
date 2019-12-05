@@ -17,7 +17,7 @@
  */
 
 #import <QuartzCore/QuartzCore.h>
-#import <AHEasing/easing.h>
+#import <AHEasingPod/easing.h>
 
 @interface CAGradientLayer (AHEasing)
 
