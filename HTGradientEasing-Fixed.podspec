@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source_files = '*.{h,m}'
   s.frameworks   = 'QuartzCore', 'CoreGraphics'
   s.requires_arc = true
-  s.dependency 'AHEasing'
+  s.dependency 'AHEasingPod'
   s.dependency 'UIColor-CrossFade'
 end
 
